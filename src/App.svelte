@@ -1,12 +1,15 @@
 <script>
+  import NavBar from './components/NavBar.svelte'
   import MainSection from './sections/MainSection.svelte'
 </script>
 
 <div id="app">
-  <div class="navbar"><nav>Hola</nav></div>
-  <main>
-    <MainSection />
-  </main>
+  <NavBar />
+  <div class="middle-section">
+    <main>
+      <MainSection />
+    </main>
+  </div>
 </div>
 
 <!-- SECTIONS
@@ -18,15 +21,23 @@
 <style>
   #app {
     font-family: 'Inter';
+    height: 100vh;
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
     grid-template:
       'navbar'
-      'main';
+      'middle-section';
   }
 
-  :global(.section-title) {
-    font-family: 'Yanone Kaffeesatz';
-    font-weight: 700;
-    font-size: 2.5rem;
+  .middle-section {
+    grid-area: middle-section;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+      'main'
+      'footer';
   }
 </style>
