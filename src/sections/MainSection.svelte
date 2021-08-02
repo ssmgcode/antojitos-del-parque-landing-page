@@ -1,6 +1,6 @@
-<div class="section">
+<section>
   <div class="container">
-    <div class="title">
+    <div class="text">
       <h4>Bienvenido a</h4>
       <h1>Antojitos del Parque</h1>
       <button class="button">Conócenos</button>
@@ -8,19 +8,11 @@
     <div class="spacer" />
     <img src="/images/logo.svg" alt="Antojitos del Parque" />
   </div>
-</div>
+</section>
 
 <style>
-  .section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
   .container {
-    display: flex;
     flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
   }
 
   .spacer {
@@ -28,7 +20,7 @@
     height: 30px;
   }
 
-  .title {
+  .text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,7 +31,7 @@
       flex-direction: row;
     }
 
-    .title {
+    .text {
       align-items: flex-start;
     }
   }
