@@ -4,12 +4,15 @@
 
 :root {
   --accent-color: #fec89a;
+  --soft-grey-for-text: #57606a;
+  --soft-grey-for-borders: #cdd2d6;
   --box-shadow: 0 2.74416px 2.74416px rgba(0, 0, 0, 0.027),
     0 5.48831px 5.48831px rgba(0, 0, 0, 0.04),
     0 13.7208px 10.9766px rgba(0, 0, 0, 0.05),
     0 20.5812px 20.5812px rgba(0, 0, 0, 0.06),
     0 41.1623px 41.1623px rgba(0, 0, 0, 0.071),
     0 96.0454px 89.1851px rgba(0, 0, 0, 0.09);
+  --border-radius: 6px;
 }
 
 * {
@@ -50,7 +53,7 @@ section h3 + p {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  color: #57606a;
+  color: var(--soft-grey-for-text);
   margin: 0;
   margin-bottom: 20px;
   text-align: center;
