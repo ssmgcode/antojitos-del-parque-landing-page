@@ -1,9 +1,17 @@
+<script lang="ts">
+  const goToFirstSection = () => {
+    document
+      .getElementsByTagName('section')[1]
+      ?.scrollIntoView({ behavior: 'smooth' })
+  }
+</script>
+
 <section>
   <div class="container">
     <div class="text">
       <h4>Bienvenido a</h4>
       <h1>Antojitos del Parque</h1>
-      <button class="button">Conócenos</button>
+      <button class="button" on:click={goToFirstSection}>Conócenos</button>
     </div>
     <div class="spacer" />
     <img src="/images/logo.svg" alt="Antojitos del Parque" />
