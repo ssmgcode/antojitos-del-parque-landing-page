@@ -1,5 +1,6 @@
 <script>
   import NavBar from './components/NavBar.svelte'
+  import LocationSection from './sections/LocationSection.svelte'
   import MainSection from './sections/MainSection.svelte'
 </script>
 
@@ -8,6 +9,7 @@
   <div class="middle-section">
     <main>
       <MainSection />
+      <LocationSection />
     </main>
   </div>
 </div>
