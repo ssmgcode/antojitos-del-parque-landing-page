@@ -4,6 +4,7 @@
 
 :root {
   --accent-color: #fec89a;
+  --color: #24292f;
   --soft-grey-for-text: #57606a;
   --soft-grey-for-borders: #cdd2d6;
   --box-shadow: 0 2.74416px 2.74416px rgba(0, 0, 0, 0.027),
@@ -23,12 +24,12 @@ html,
 body {
   height: 100%;
   background: #ffffff;
-  color: #24292f;
+  color: var(--color);
 }
 
 section {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 75px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
