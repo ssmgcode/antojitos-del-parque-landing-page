@@ -24,6 +24,6 @@
     margin-right: auto;
     border-radius: 6px;
     overflow: hidden;
-    box-shadow: var(--box-shadow);
+    border: 1px solid var(--soft-grey-for-borders);
   }
 </style>

@@ -49,7 +49,6 @@
 <style>
   div {
     border-radius: var(--border-radius);
-    box-shadow: var(--box-shadow);
     width: max-content;
     margin-left: auto;
     margin-right: auto;
