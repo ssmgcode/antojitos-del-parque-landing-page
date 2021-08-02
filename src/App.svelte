@@ -1,4 +1,5 @@
 <script>
+  import Footer from './components/Footer.svelte'
   import NavBar from './components/NavBar.svelte'
   import LocationSection from './sections/LocationSection.svelte'
   import MainSection from './sections/MainSection.svelte'
@@ -17,6 +18,7 @@
       <MenuSection />
       <SocialMediaSection />
     </main>
+    <Footer />
   </div>
 </div>
 

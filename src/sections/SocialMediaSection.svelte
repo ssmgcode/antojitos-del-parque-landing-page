@@ -1,8 +1,8 @@
 <section>
   <h3 id="redes-sociales">Redes sociales</h3>
   <p>
-    Compartimos experiencias y rostros, descubre si eres parte de nuestra
-    alegría siguiéndonos en nuestras redes sociales.
+    Compartimos experiencias y rostros, descubre si eres parte de nuestras
+    publicaciones siguiéndonos en nuestras redes sociales.
   </p>
   <a
     class="facebook"
@@ -42,6 +42,7 @@
     text-decoration: none;
     display: flex;
     align-items: center;
+    flex-direction: column;
     border: 1px solid var(--soft-grey-for-borders);
     border-radius: var(--border-radius);
     padding: 10px;
@@ -60,7 +61,6 @@
 
   svg {
     width: 2em;
-    margin-right: 1em;
   }
 
   svg.facebook {
