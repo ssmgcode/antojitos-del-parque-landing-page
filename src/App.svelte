@@ -2,6 +2,7 @@
   import NavBar from './components/NavBar.svelte'
   import LocationSection from './sections/LocationSection.svelte'
   import MainSection from './sections/MainSection.svelte'
+  import MenuSection from './sections/MenuSection.svelte'
   import ScheduleSection from './sections/ScheduleSection.svelte'
 </script>
 
@@ -12,6 +13,7 @@
       <MainSection />
       <LocationSection />
       <ScheduleSection />
+      <MenuSection />
     </main>
   </div>
 </div>
