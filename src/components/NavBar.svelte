@@ -7,7 +7,9 @@
     background: #000000;
     padding: 10px 0;
     display: flex;
+    height: 60px;
     justify-content: center;
+    align-items: center;
     grid-area: navbar;
   }
 
