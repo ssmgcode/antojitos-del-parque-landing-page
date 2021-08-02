@@ -4,6 +4,7 @@
   import MainSection from './sections/MainSection.svelte'
   import MenuSection from './sections/MenuSection.svelte'
   import ScheduleSection from './sections/ScheduleSection.svelte'
+  import SocialMediaSection from './sections/SocialMediaSection.svelte'
 </script>
 
 <div id="app">
@@ -14,16 +15,11 @@
       <LocationSection />
       <ScheduleSection />
       <MenuSection />
+      <SocialMediaSection />
     </main>
   </div>
 </div>
 
-<!-- SECTIONS
-  - Ubicación
-  - Horario
-  - Menu
-  - Redes sociales
- -->
 <style>
   #app {
     font-family: 'Inter';
