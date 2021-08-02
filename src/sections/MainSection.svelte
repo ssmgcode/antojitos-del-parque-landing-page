@@ -1,6 +1,7 @@
 <div class="section">
   <div class="container">
     <div class="title">
+      <h4>Bienvenido a</h4>
       <h1>Antojitos del Parque</h1>
       <button class="button">Conócenos</button>
     </div>
@@ -17,14 +18,14 @@
 
   .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
   }
 
   .spacer {
     width: 50px;
-    height: 50px;
+    height: 30px;
   }
 
   .title {
@@ -43,16 +44,23 @@
     }
   }
 
+  h4 {
+    color: #959da5;
+    font-size: 16px;
+    margin: 0;
+  }
+
   h1 {
-    font-family: 'Yanone Kaffeesatz';
-    font-weight: 700;
-    font-size: 5em;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    font-size: 3.2em;
     text-align: center;
     margin: 0;
     margin-bottom: 35px;
   }
 
   img {
-    width: 15em;
+    width: 14em;
+    filter: drop-shadow(0 7px 5px rgba(0, 0, 0, 0.2));
   }
 </style>
