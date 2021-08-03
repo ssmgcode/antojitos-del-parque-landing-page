@@ -83,7 +83,6 @@
 
   @media screen and (min-width: 768px) {
     section {
-      display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: flex-start;
