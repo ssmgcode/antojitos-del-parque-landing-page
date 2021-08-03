@@ -6,8 +6,8 @@
   <div class="texts-container">
     <h3 id="horarios">Horarios</h3>
     <p>
-      ¿Te apetece pasar por una merienda, o por un postre nocturno? Te invitamos
-      a visitarnos en estos horarios
+      ¿Te apetece pasar por una merienda, o por un postre nocturno? Visítanos en
+      estos horarios.
     </p>
   </div>
   <div class="table-container">
@@ -62,8 +62,6 @@
   .table-container {
     border-radius: var(--border-radius);
     width: max-content;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
     border: 1px solid var(--soft-grey-for-borders);
   }
 

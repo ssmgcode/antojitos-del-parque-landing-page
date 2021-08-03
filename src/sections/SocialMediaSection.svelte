@@ -2,8 +2,8 @@
   <div class="texts-container">
     <h3 id="redes-sociales">Redes sociales</h3>
     <p>
-      Compartimos experiencias y rostros, descubre si eres parte de nuestras
-      publicaciones siguiéndonos en nuestras redes sociales.
+      Compartimos experiencias, creaciones y rostros, descubre si eres parte de
+      nuestras publicaciones siguiéndonos en nuestras redes sociales.
     </p>
   </div>
   <div class="spacer" />
