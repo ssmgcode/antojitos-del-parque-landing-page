@@ -20,6 +20,7 @@
 
 <style>
   .container {
+    display: flex;
     flex-direction: column-reverse;
   }
 
@@ -34,19 +35,10 @@
     align-items: center;
   }
 
-  @media screen and (min-width: 768px) {
-    .container {
-      flex-direction: row;
-    }
-
-    .text {
-      align-items: flex-start;
-    }
-  }
-
   h4 {
     color: #959da5;
     font-size: 16px;
+    line-height: 20px;
     margin: 0;
   }
 
@@ -62,5 +54,32 @@
   img {
     width: 14em;
     filter: drop-shadow(0 7px 5px rgba(0, 0, 0, 0.2));
+  }
+
+  @media screen and (min-width: 768px) {
+    .container {
+      flex-direction: row;
+      flex: 0 1;
+    }
+
+    img {
+      width: 50%;
+      max-width: 250px;
+    }
+
+    .text {
+      align-items: flex-start;
+    }
+
+    h4 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    h1 {
+      font-size: 72px;
+      line-height: 76px;
+      text-align: left;
+    }
   }
 </style>
