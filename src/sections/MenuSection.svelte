@@ -58,15 +58,22 @@
     ></svg
   >
   <div class="spacer" />
-  <h3 id="menu">Menú</h3>
-  <p>Te ofrecemos dulzura, amor y muchos muchos postres para disfrutar.</p>
-  <button class="button">Conoce nuestro menú</button>
+  <div class="texts-container">
+    <h3 id="menu">Menú</h3>
+    <p>Te ofrecemos dulzura, amor y muchos muchos postres para disfrutar.</p>
+    <button class="button">Conoce nuestro menú</button>
+  </div>
 </section>
 
 <style>
   section {
     border-radius: 24px;
     background: var(--accent-color);
+    padding-left: 1em;
+    padding-right: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .spacer {
@@ -91,5 +98,20 @@
     margin-left: auto;
     background: #24292f;
     color: white;
+  }
+
+  @media screen and (min-width: 768px) {
+    section {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+
+    .texts-container {
+      flex: 0.75;
+    }
+
+    button {
+      margin: 0;
+    }
   }
 </style>
