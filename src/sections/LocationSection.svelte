@@ -19,7 +19,6 @@
 
 <style>
   div {
-    width: 90%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 6px;
