@@ -1,9 +1,13 @@
+<script lang="ts">
+  const day: number = new Date().getUTCDay()
+</script>
+
 <section>
   <div class="texts-container">
     <h3 id="horarios">Horarios</h3>
     <p>
-      ¿Te apetece pasar por una merienda, o por un postre nocturno? Te invitamos
-      a visitarnos en estos horarios
+      ¿Te apetece pasar por una merienda, o por un postre nocturno? Visítanos en
+      estos horarios.
     </p>
   </div>
   <div class="table-container">
@@ -15,31 +19,31 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr class={day === 1 ? 'remark' : ''}>
           <td>Lunes</td>
           <td>10:30 AM - 08:30 PM</td>
         </tr>
-        <tr>
+        <tr class={day === 2 ? 'remark' : ''}>
           <td>Martes</td>
           <td>09:30 AM - 08:30 PM</td>
         </tr>
-        <tr>
+        <tr class={day === 3 ? 'remark' : ''}>
           <td>Miércoles</td>
           <td>11:30 AM - 08:30 PM</td>
         </tr>
-        <tr>
+        <tr class={day === 4 ? 'remark' : ''}>
           <td>Jueves</td>
           <td>09:30 AM - 08:30 PM</td>
         </tr>
-        <tr>
+        <tr class={day === 5 ? 'remark' : ''}>
           <td>Viernes</td>
           <td>09:30 AM - 08:30 PM</td>
         </tr>
-        <tr>
+        <tr class={day === 6 ? 'remark' : ''}>
           <td>Sábado</td>
           <td>09:30 AM - 09:00 PM</td>
         </tr>
-        <tr>
+        <tr class={day === 7 ? 'remark' : ''}>
           <td>Domingo</td>
           <td>09:30 AM - 09:00 PM</td>
         </tr>
@@ -58,8 +62,6 @@
   .table-container {
     border-radius: var(--border-radius);
     width: max-content;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
     border: 1px solid var(--soft-grey-for-borders);
   }
 
@@ -79,6 +81,11 @@
 
   tbody > tr > td:nth-last-child(1) {
     text-align: center;
+  }
+
+  .remark {
+    color: #1877f2;
+    font-weight: 600;
   }
 
   @media screen and (min-width: 768px) {

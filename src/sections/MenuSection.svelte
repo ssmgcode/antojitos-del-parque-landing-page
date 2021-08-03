@@ -60,7 +60,7 @@
   <div class="spacer" />
   <div class="texts-container">
     <h3 id="menu">Menú</h3>
-    <p>Te ofrecemos dulzura, amor y muchos muchos postres para disfrutar.</p>
+    <p>Tenemos dulzura, amor y muchos muchos postres para disfrutar.</p>
     <button class="button">Conoce nuestro menú</button>
   </div>
 </section>
