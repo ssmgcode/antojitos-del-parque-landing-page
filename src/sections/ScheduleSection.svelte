@@ -1,5 +1,5 @@
 <script lang="ts">
-  const day: number = new Date().getUTCDay()
+  const day: number = new Date().getDay()
 </script>
 
 <section>
@@ -43,7 +43,7 @@
           <td>Sábado</td>
           <td>09:30 AM - 09:00 PM</td>
         </tr>
-        <tr class={day === 7 ? 'remark' : ''}>
+        <tr class={day === 0 ? 'remark' : ''}>
           <td>Domingo</td>
           <td>09:30 AM - 09:00 PM</td>
         </tr>
