@@ -44,7 +44,6 @@
 
   h1 {
     font-weight: 800;
-    letter-spacing: -0.05em;
     font-size: 3.2em;
     text-align: center;
     margin: 0;

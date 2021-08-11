@@ -27,6 +27,12 @@ body {
   color: var(--color);
 }
 
+h1,
+h2,
+h3 {
+  font-family: 'Yanone Kaffeesatz';
+}
+
 section {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -44,8 +50,8 @@ section .container {
 }
 
 section h3 {
-  font-size: 28px;
-  line-height: 32px;
+  font-size: 36px;
+  line-height: 40px;
   font-weight: 800;
   text-align: center;
   margin: 0;
