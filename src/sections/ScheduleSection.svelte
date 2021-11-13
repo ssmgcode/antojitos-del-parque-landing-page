@@ -21,31 +21,31 @@
       <tbody>
         <tr class={day === 1 ? 'remark' : ''}>
           <td>Lunes</td>
-          <td>10:30 AM - 08:30 PM</td>
+          <td>12:00 PM - 09:00 PM</td>
         </tr>
         <tr class={day === 2 ? 'remark' : ''}>
           <td>Martes</td>
-          <td>09:30 AM - 08:30 PM</td>
+          <td>12:00 PM - 09:00 PM</td>
         </tr>
         <tr class={day === 3 ? 'remark' : ''}>
           <td>Miércoles</td>
-          <td>11:30 AM - 08:30 PM</td>
+          <td>12:00 PM - 09:00 PM</td>
         </tr>
         <tr class={day === 4 ? 'remark' : ''}>
           <td>Jueves</td>
-          <td>09:30 AM - 08:30 PM</td>
+          <td>12:00 PM - 09:00 PM</td>
         </tr>
         <tr class={day === 5 ? 'remark' : ''}>
           <td>Viernes</td>
-          <td>09:30 AM - 08:30 PM</td>
+          <td>12:00 PM - 09:00 PM</td>
         </tr>
         <tr class={day === 6 ? 'remark' : ''}>
           <td>Sábado</td>
-          <td>09:30 AM - 09:00 PM</td>
+          <td>10:00 AM - 09:00 PM</td>
         </tr>
         <tr class={day === 0 ? 'remark' : ''}>
           <td>Domingo</td>
-          <td>09:30 AM - 09:00 PM</td>
+          <td>10:00 AM - 09:00 PM</td>
         </tr>
       </tbody>
     </table>
